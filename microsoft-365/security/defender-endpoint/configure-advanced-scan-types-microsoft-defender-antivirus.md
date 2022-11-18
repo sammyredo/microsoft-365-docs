@@ -71,7 +71,7 @@ For details on configuring Microsoft Endpoint Manager (current branch), see [How
 |Scan packed executables <p> **Scan** \> **Scan packed executables**|Enabled|Not available|
 |Scan removable drives during full scans only <p> **Scan** \> **Scan removable drives**|Disabled|`-DisableRemovableDriveScanning`|
 |Specify the level of subfolders within an archive folder to scan <p>**Scan** \> **Specify the maximum depth to scan archive files**|0|Not available|
-|Specify the maximum CPU load (as a percentage) during a scan. <p> **Scan** \> **Specify the maximum percentage of CPU utilization during a scan**|50|`-ScanAvgCPULoadFactor` <p>**NOTE**: The maximum CPU load is not a hard limit, but is guidance for the scanning engine to not exceed the maximum on average. Manually run scans will ignore this setting and run without any CPU limits.|
+|Specify the maximum CPU load (as a percentage) during a scan. <p> **Scan** \> **Specify the maximum percentage of CPU utilization during a scan**|50|`-ScanAvgCPULoadFactor` <p>**NOTE**: The maximum CPU load is not a hard limit, but is guidance for the scanning engine to not exceed the maximum on average. Manually run scans will ignore this setting and run without any CPU limits. Full scans may ignore this limit.|
 |Specify the maximum size (in kilobytes) of archive files that should be scanned. <p> **Scan** \> **Specify the maximum size of archive files to be scanned**|No limit|Not available <p>The default value of 0 applies no limit|
 |Configure low CPU priority for scheduled scans <p> **Scan** \> **Configure low CPU priority for scheduled scans**|Disabled|Not available|
 
